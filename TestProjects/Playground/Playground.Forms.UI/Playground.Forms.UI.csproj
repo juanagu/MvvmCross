@@ -100,6 +100,12 @@
     <Compile Update="Resources\MainStyles.xaml.cs">
       <DependentUpon>MainStyles.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Pages\MixedNavResultPage.xaml.cs">
+      <DependentUpon>MixedNavResultDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\MixedNavResultDetailPage.xaml.cs">
+      <DependentUpon>MixedNavResultDetailPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
 </Project>

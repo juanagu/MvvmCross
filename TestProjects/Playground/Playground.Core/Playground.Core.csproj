@@ -70,6 +70,7 @@
     <Compile Include="Services\TextProviderBuilder.cs" />
     <Compile Include="Models\SampleModel.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\MixedNavResultDetailViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\MvvmCross\Core\Core\MvvmCross.Core.csproj">

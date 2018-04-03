@@ -17,6 +17,7 @@ namespace Playground.Core.ViewModels
 
             public string Description { get; set; }
             public Type ViewModelType { get; set; }
+
         }
 
         public MixedNavMasterDetailViewModel(IMvxNavigationService navigationService)
@@ -25,6 +26,7 @@ namespace Playground.Core.ViewModels
             Menu = new[] {
                 new MenuItem { Title = "Root", Description = "The root page", ViewModelType = typeof(MixedNavMasterRootContentViewModel) },
                 new MenuItem { Title = "Tabs", Description = "Tabbed detail page", ViewModelType = typeof(MixedNavTabsViewModel)},
+                new MenuItem { Title = "Result", Description = "Open detail page with result", ViewModelType = typeof(MixedNavResultDetailViewModel)},
             };
         }
 
